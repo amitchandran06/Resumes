@@ -19,11 +19,11 @@
 \pagestyle{empty}
 \begin{center}
     {\huge\textbf{Amit Chandran}} \\
-    \href{mailto:amitchandran06@gmail.com}{amitchandran06@gmail.com} \textbar{} \href{https://www.linkedin.com/in/amit-chandran}{LinkedIn \faLinkedinSquare} \textbar{} \href{https://amitchandran06.github.io/Portfolio/}{Portfolio \faGlobe} \textbar{} UK SC \\
-    \vspace{0.5cm}
+    \href{mailto:amitchandran06@gmail.com}{amitchandran06@gmail.com} \textbar{} \href{https://www.linkedin.com/in/amit-chandran}{LinkedIn \faLinkedinSquare} \textbar{} \href{https://github.com/amitchandran06}{GitHub \faGithub} \textbar{} \href{https://amitchandran06.github.io/Portfolio/}{Portfolio \faGlobe} \\
+    \vspace{0.25cm}
     {\textrm{I am a Mechanical Engineer with skills and experience in development of software, hardware and mechanical systems within cross-functional teams. Aspiring to work within robotics, control or embedded systems.}}
 \end{center}
-
+\vspace{-0.75cm}
 \section*{Education}
 \noindent\textbf{UCL - MEng Mechanical Engineering} \hfill \textit{Expected June 2028}
 \begin{itemize}
@@ -39,7 +39,7 @@
 \section*{Experience}
 \noindent\textbf{Systems Engineering Intern – Leonardo UK} \hfill \textit{Summer 2025 and 2026}
 \begin{itemize}
-    \item Operated as a systems engineer, coordinating 10 other interns to seamlessly integrate antenna, firmware, hardware and software components into a continous RF to web-server pipeline.
+    \item Operated as a systems engineer, coordinating 10 other interns to seamlessly integrate antenna, firmware, hardware and software components into a continuous RF to web-server pipeline.
     \item Implemented HDL-compatible signal processing pipelines in Simulink and deployed them on an RFSoC FPGA board, producing high-resolution spectra
     \item Developed a compression algorithm reducing FFT data bandwidth requirements by over \textbf{2500×}, minimising network utilisation whilst preserving critical information
     \item Optimised signal max-hold algorithm using MATLAB by reducing complexity from O$(N^2)$ to O$(N)$ achieving a \textbf{99.3\%} simulation time reduction
@@ -51,14 +51,14 @@
 \begin{itemize}
     \item Programmed an edge-computing vision pipeline in Python and OpenCV on a Raspberry Pi to track ArUco markers in real-time, with an average pose error of \textbf{$<$1cm}
     \item Established a robust UDP telemetry link to stream positional data seamlessly from the edge device to a high-level MATLAB/Simulink control model
-    \item Built a UDP/MAVLink telemetry architecture connecting Simulink models directly to an H743 flight controller for real-time flight control
+    \item Built a UART-based MAVLink telemetry architecture connecting Simulink models directly to an H743 flight controller for real-time flight control
 \end{itemize}
 \vspace{0.75em}
 \noindent\textbf{Smart Pet Feeder – BLE IoT System} \hfill \textit{October - March 2026}
 \begin{itemize}
-    \item Developed bespoke C++ firmware for an ESP32 microcontroller utilising the NimBLE stack, achieving a \textbf{50\%} reduction in flash usage versus the standard Bluedroid library
-    \item Engineered an automatic dispensing mechanism, integrated with load-cells as well as RTC synchronization, achieving \textbf{±1\%} accuracy for times and weights of dispensed food
-    \item Implemented an event-driven GATT server architecture using the Nordic UART Service (NUS) enabling low latency communication with a custom Android client to load pet data
+    \item Developed C++ firmware on an ESP32-S3, interfacing a NEMA17 stepper motor and HX711 strain-gauge amplifier for real-time mass measurement and portion control   
+    \item Implemented an event-driven BLE GATT server (Nordic UART Service) that dynamically synced ESP32 system time via an Android client, eliminating external RTC chip costs
+    \item Engineered a tuneable control loop allowing the device to dispense user-defined portion sizes at pre-set times, achieving \textbf{±1\%} mass accuracy across 20–100g portions and sub-2s timing precision in a real world demo
     \item Deployed firmware and build instructions to an open source repository, making use of DfMA (Design for manufacturing and assembly) to allow the public to easily modify and build to a use case
 \end{itemize}
 \vspace{0.75em}
