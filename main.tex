@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt]{article}
+\documentclass[a4paper,10pt]{article} %Adjust Font Size Below NOT here 
 
 % Packages
 \usepackage[margin=0.4in]{geometry}
@@ -8,6 +8,7 @@
 \usepackage{setspace} % for line spacing
 \usepackage{hyperref}
 \usepackage{fontawesome}
+\usepackage[fontsize=10.7pt]{scrextend}
 
 % Formatting
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
@@ -18,16 +19,16 @@
 \pagestyle{empty}
 \begin{center}
     {\huge\textbf{First Last}} \\
-    \href{mailto:amitchandran06@gmail.com}{email@gmail.com}{ \textbar{}  \href{https://www.linkedin.com/in/amit-chandran}{LinkedIn \faLinkedinSquare}}{ \textbar{}   UK BPSS Cleared} \\
-    \vspace{0.5cm}
-    {\textrm{Mechanical Engineer with skills and experience in development of software, hardware and mechanical components within cross-functional teams. Aspiring to work within robotics, control systems or simulation.}}
+    \href{mailto:firstlast@gmail.com}{firstlast@gmail.com} \textbar{} \href{https://www.linkedin.com/in/firstlast}{LinkedIn \faLinkedinSquare} \textbar{} \href{https://github.com/firstlast}{GitHub \faGithub} \textbar{} \href{https://firstlast.github.io/Portfolio/}{Portfolio \faGlobe} \\
+    \vspace{0.25cm}
+    {\textrm{I am a Mechanical Engineer with skills and experience in development of software, hardware and mechanical systems within cross-functional teams. Aspiring to work within robotics, control or embedded systems.}}
 \end{center}
-
+\vspace{-0.75cm}
 \section*{Education}
 \noindent\textbf{Uni - MEng Mechanical Engineering} \hfill \textit{Expected June 2028}
 \begin{itemize}
-    \item Relevant Modules: Thermodynamics, Dynamics, Mathematical Modelling, Design, Materials
-    \item Grade: Y1 – 85\%
+    \item Relevant Modules: Thermodynamics, Dynamics, Mathematical Modelling, Robotics, Control Systems
+    \item Current Average: 78\%
 \end{itemize}
 
 %\noindent\textbf{King Edwards VI Five Ways} \hfill \textit{2017 – 2024}
@@ -36,42 +37,42 @@
 %\end{itemize}
 \vspace{-0.5cm}
 \section*{Experience}
-\noindent\textbf{Systems Engineering Intern – Company} \hfill \textit{June – August 2025}
+\noindent\textbf{Systems Engineering Intern – Company, UK} \hfill \textit{Summer 2025 and 2026}
 \begin{itemize}
+    \item Operated as a systems engineer, coordinating 10 other interns to seamlessly integrate antenna, firmware, hardware and software components into a continuous RF to web-server pipeline.
     \item Implemented HDL-compatible signal processing pipelines in Simulink and deployed them on an RFSoC FPGA board, producing high-resolution spectra
     \item Developed a compression algorithm reducing FFT data bandwidth requirements by over \textbf{2500×}, minimising network utilisation whilst preserving critical information
-    \item Directed the integration of upstream and downstream hardware/software sub-systems, delivering a coherent high-performance system
-    \item Coordinated with software engineers to develop a robust data exchange protocol using TCP, enabling results to be viewed through a web-based server
-    \item Architected a self-test algorithm to verify RF signal integrity, cutting downtime and boosting diagnostics
-    \item Optimised max-hold algorithms using MATLAB to decrease run time by \textbf{99.3\%}, reducing system latency
+    \item Optimised signal max-hold algorithm using MATLAB by reducing complexity from O$(N^2)$ to O$(N)$ achieving a \textbf{99.3\%} simulation time reduction
    
 \end{itemize}
 \vspace{-0.75em}
-\section*{Projects / Extracirricular}
-\vspace{-0.25em}
-\noindent\textbf{Control Engineer – Uni Team} \hfill \textit{January 2025 – present}
+\section*{Projects / Extracurricular}
+\noindent\textbf{Technical Lead and Drone Controls Engineer – Uni Rover Team} \hfill \textit{January 2025 – present}
 \begin{itemize}
-    \item Engineered control software using Arduino IDE to remotely adjust the yaw and thrust of the rover
-    \item Modelled and manufactured enclosures for ESCs (Electronic Speed Controllers) in Fusion 360, ensuring seamless integration into the mechanical structure of the rover
-    \item Diagnosed and resolved errors within the program through a robust verification method using oscilloscopes, streamlining the troubleshooting process
+    \item Programmed an edge-computing vision pipeline in Python and OpenCV on a Raspberry Pi to track ArUco markers in real-time, with an average pose error of \textbf{$<$1cm}
+    \item Established a robust UDP telemetry link to stream positional data seamlessly from the edge device to a high-level MATLAB/Simulink control model
+    \item Built a UART-based MAVLink telemetry architecture connecting Simulink models directly to an H743 flight controller for real-time flight control
 \end{itemize}
-\noindent\textbf{IMechE Design Challenge – Autonomous Robotic Device} \hfill \textit{January – March 2025}
+\vspace{0.75em}
+\noindent\textbf{Smart Pet Feeder – BLE IoT System} \hfill \textit{October - March 2026}
 \begin{itemize}
-    \item Led the team to develop a bespoke electro-mechanical solution involving H-bridges and latch circuits, maximising autonomy over competitors and placing 3rd of 45 teams
-    \item Designed and assembled a PCB using EasyEDA, cutting weight by \textbf{85\%}  as well as reducing internal wire length by \textbf{1.2} metres versus breadboard designs
-    \item Formulated a rigorous test strategy and built a test rig to rapidly implement upgrades to the vehicle
-    \item Collaborated with mechanical designers to prioritise DFMA (Design for Manufacturing and Assembly), maximising space efficiency and vehicle modularity
+    \item Developed C++ firmware on an ESP32-S3, interfacing a NEMA17 stepper motor and HX711 strain-gauge amplifier for real-time mass measurement and portion control   
+    \item Implemented an event-driven BLE GATT server (Nordic UART Service) that dynamically synced ESP32 system time via an Android client, eliminating external RTC chip costs
+    \item Engineered a tuneable control loop allowing the device to dispense user-defined portion sizes at pre-set times, achieving \textbf{±1\%} mass accuracy across 20–100g portions and sub-2s timing precision in a real world demo
+    \item Deployed firmware and build instructions to an open source repository, making use of DfMA (Design for manufacturing and assembly) to allow the public to easily modify and build to a use case
 \end{itemize}
-\noindent\textbf{Industrial Cadets Gold Award - Digital Locker and Kiosk} \hfill \textit{October 2022 – April 2023}
+\vspace{0.75em}
+\noindent\textbf{ Design Challenge – Autonomous Robotic Device} \hfill \textit{January – March 2025}
 \begin{itemize}
-    \item Modelled kiosk components within Fusion 360, focusing on enhancing modularity and \textbf{DFMA}
-    \item Managed the integration of Arduino firmware with a Python application using PySerial, upgrading the manual lock and paper sign in with a digital system
-    \item Directed cross-functional sub-teams to deliver a live demonstration, securing the \textbf{Best Teamwork Award}
+    \item Led the team to develop a bespoke electro-mechanical solution without programmable microcontrollers, maximising autonomy over competitors and placing 3rd of 45 teams
+    \item Designed discrete MOSFET logic gate circuitry with a H-bridge on a custom EasyEDA PCB, cutting down on moving components whilst improving repeatability
+    \item Formulated a rigorous test strategy and built a test rig to rapidly implement upgrades to the vehicle, reducing mass by \textbf{85\%} and wire length by \textbf{1.2m}
 \end{itemize}
-\vspace{-0.75em}
+
+
 \section*{Skills}
 \begin{itemize}
-    \item \textbf{Programming Languages} – MATLAB, Arduino, Python, C++
+    \item \textbf{Programming Languages} – MATLAB, Python, C++
     \item \textbf{Tools / Software} –  Simulink, Fusion 360, Git, Azure DevOps, EasyEDA
     \item \textbf{Manufacturing} – 3D Printing, Laser Cutting, Standard workshop equipment, Soldering
 \end{itemize}
