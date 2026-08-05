@@ -1,6 +1,8 @@
 \documentclass[a4paper,10pt]{article} %Adjust Font Size Below NOT here 
 
 % Packages
+\usepackage[T1]{fontenc}
+\usepackage{XCharter}
 \usepackage[margin=0.4in]{geometry}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -25,10 +27,10 @@
 \end{center}
 \vspace{-0.75cm}
 \section*{Education}
-\noindent\textbf{Uni - MEng Mechanical Engineering} \hfill \textit{Expected June 2028}
+\noindent\textbf{Uni - MEng Mechanical Engineering} \hfill \textbf{Expected June 2028}
 \begin{itemize}
     \item Relevant Modules: Thermodynamics, Dynamics, Mathematical Modelling, Robotics, Control Systems
-    \item Current Average: 78\%
+    \item Current Average: 78\% - First Class
 \end{itemize}
 
 %\noindent\textbf{King Edwards VI Five Ways} \hfill \textit{2017 – 2024}
@@ -37,7 +39,7 @@
 %\end{itemize}
 \vspace{-0.5cm}
 \section*{Experience}
-\noindent\textbf{Systems Engineering Intern – Company, UK} \hfill \textit{Summer 2025 and 2026}
+\noindent\textbf{Systems Engineering Intern – Company, UK} \hfill \textbf{Summer 2025 and 2026}
 \begin{itemize}
     \item Operated as a systems engineer, coordinating 10 other interns to seamlessly integrate antenna, firmware, hardware and software components into a continuous RF to web-server pipeline.
     \item Implemented HDL-compatible signal processing pipelines in Simulink and deployed them on an RFSoC FPGA board, producing high-resolution spectra
@@ -47,14 +49,14 @@
 \end{itemize}
 \vspace{-0.75em}
 \section*{Projects / Extracurricular}
-\noindent\textbf{Technical Lead and Drone Controls Engineer – Uni Rover Team} \hfill \textit{January 2025 – present}
+\noindent\textbf{Technical Lead and Drone Controls Engineer – Uni Rover Team} \hfill \textbf{January 2025 – present}
 \begin{itemize}
     \item Programmed an edge-computing vision pipeline in Python and OpenCV on a Raspberry Pi to track ArUco markers in real-time, with an average pose error of \textbf{$<$1cm}
     \item Established a robust UDP telemetry link to stream positional data seamlessly from the edge device to a high-level MATLAB/Simulink control model
     \item Built a UART-based MAVLink telemetry architecture connecting Simulink models directly to an H743 flight controller for real-time flight control
 \end{itemize}
 \vspace{0.75em}
-\noindent\textbf{Smart Pet Feeder – BLE IoT System} \hfill \textit{October - March 2026}
+\noindent\textbf{Smart Pet Feeder – BLE IoT System} \hfill \textbf{October - March 2026}
 \begin{itemize}
     \item Developed C++ firmware on an ESP32-S3, interfacing a NEMA17 stepper motor and HX711 strain-gauge amplifier for real-time mass measurement and portion control   
     \item Implemented an event-driven BLE GATT server (Nordic UART Service) that dynamically synced ESP32 system time via an Android client, eliminating external RTC chip costs
@@ -62,7 +64,7 @@
     \item Deployed firmware and build instructions to an open source repository, making use of DfMA (Design for manufacturing and assembly) to allow the public to easily modify and build to a use case
 \end{itemize}
 \vspace{0.75em}
-\noindent\textbf{ Design Challenge – Autonomous Robotic Device} \hfill \textit{January – March 2025}
+\noindent\textbf{ Design Challenge – Autonomous Robotic Device} \hfill \textbf{January – March 2025}
 \begin{itemize}
     \item Led the team to develop a bespoke electro-mechanical solution without programmable microcontrollers, maximising autonomy over competitors and placing 3rd of 45 teams
     \item Designed discrete MOSFET logic gate circuitry with a H-bridge on a custom EasyEDA PCB, cutting down on moving components whilst improving repeatability
