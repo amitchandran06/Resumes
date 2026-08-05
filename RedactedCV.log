@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.3)  3 AUG 2026 01:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.3)  5 AUG 2026 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/Code/VSC/LaTeX/main.tex
-(e:/Code/VSC/LaTeX/main.tex
+**e:/Code/VSC/LaTeX/RedactedCV.tex
+(e:/Code/VSC/LaTeX/RedactedCV.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
 (C:\Users\Amit\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -193,8 +193,8 @@ LaTeX Warning: Command \@footnotemark  has changed.
 ) (C:\Users\Amit\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
-) (main.aux)
-\openout1 = `main.aux'.
+) (RedactedCV.aux)
+\openout1 = `RedactedCV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -250,9 +250,9 @@ LaTeX Font Info:    ... okay on input line 18.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 18.
-(main.out) (main.out)
+(RedactedCV.out) (RedactedCV.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `RedactedCV.out'.
 
 
 
@@ -302,7 +302,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.34999> on input line 45.
 [1
 
-{C:/Users/Amit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}] (main.aux)
+{C:/Users/Amit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}] (RedactedCV.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
@@ -312,19 +312,19 @@ L3 programming layer <2026-06-18>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.45183pt have occurred.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
+Package rerunfilecheck Info: File `RedactedCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  11207 strings out of 467510
- 178260 string characters out of 5409281
- 645320 words of memory out of 5000000
+ 178380 string characters out of 5409281
+ 645350 words of memory out of 5000000
  40351 multiletter control sequences out of 15000+600000
  631504 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,5n,107p,425b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,5n,107p,431b,442s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Amit\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1095.pk> <C:\Users\Amit\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 124710 bytes).
+Output written on RedactedCV.pdf (1 page, 124710 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
