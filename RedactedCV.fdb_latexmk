@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1785949397.34013 "e:/Code/VSC/LaTeX/RedactedCV.tex" "RedactedCV.pdf" "RedactedCV" 1785949398.46796 0
+["pdflatex"] 1785949655.12131 "e:/Code/VSC/LaTeX/RedactedCV.tex" "RedactedCV.pdf" "RedactedCV" 1785949655.89326 0
   "C:/Users/Amit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1785948528 148599 a299a6cc5da41fdb2395142cab8c76df ""
   "C:/Users/Amit/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1783087989 13366575 be05e6f06e74fb43911fd333dff05384 ""
   "C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463869852 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -93,10 +93,10 @@
   "C:/Users/Amit/AppData/Local/Programs/MiKTeX/tex/latex/xcharter/ts1xcharter-tlf.fd" 1719043975 1425 cd5bb4b6153ce8af76e53731d54d5eb7 ""
   "C:/Users/Amit/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/Amit/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "RedactedCV.aux" 1785949398 198 08b6f11d0cd9ec05d9689eaa344d2807 "pdflatex"
-  "RedactedCV.out" 1785949398 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "RedactedCV.tex" 1785949396 5299 dad1ca0edd8219f13b2e017f220568d8 ""
-  "e:/Code/VSC/LaTeX/RedactedCV.tex" 1785949396 5299 dad1ca0edd8219f13b2e017f220568d8 ""
+  "RedactedCV.aux" 1785949655 198 08b6f11d0cd9ec05d9689eaa344d2807 "pdflatex"
+  "RedactedCV.out" 1785949655 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "RedactedCV.tex" 1785949653 5299 dad1ca0edd8219f13b2e017f220568d8 ""
+  "e:/Code/VSC/LaTeX/RedactedCV.tex" 1785949653 5299 dad1ca0edd8219f13b2e017f220568d8 ""
   (generated)
   "RedactedCV.aux"
   "RedactedCV.log"
