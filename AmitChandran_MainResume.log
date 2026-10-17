@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.3)  22 SEP 2026 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.3)  17 OCT 2026 16:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -229,13 +229,18 @@ LaTeX Warning: Command \@footnotemark  has changed.
                Check if current package is valid.
 
 )
+Package scrextend Info: File `scrsize11pt.clo' used instead of
+(scrextend)             file `scrsize11 pt.clo' to setup font sizes on input line 13.
+ (C:\Users\Amit\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt.clo
+File: scrsize11pt.clo 2026/02/02 v3.49.2 KOMA-Script font size class option (11pt)
+)
 LaTeX Info: Redefining \oldstylenums on input line 19.
 LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on input line 19.
  (C:\Users\Amit\AppData\Local\Programs\MiKTeX\tex/latex/xcharter\t1xcharter-tlf.fd
 File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-TLF.
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.6pt on input line 19.
+(Font)              scaled to size 10.95pt on input line 19.
  (C:\Users\Amit\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count305
@@ -287,7 +292,7 @@ LaTeX Font Info:    ... okay on input line 19.
 * \marginparwidth=57.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.53998pt plus 4.23953pt minus 2.12044pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -303,74 +308,55 @@ Package hyperref Info: Link coloring OFF on input line 19.
 \openout3 = `AmitChandran_MainResume.out'.
 
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 21.98447pt on input line 22.
+(Font)              scaled to size 20.74pt on input line 22.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 21.98447pt on input line 22.
+(Font)              scaled to size 20.74pt on input line 22.
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 23.
  (C:\Users\Amit\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 12.71997pt on input line 30.
+(Font)              scaled to size 12.0pt on input line 30.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 12.71997pt on input line 30.
+(Font)              scaled to size 12.0pt on input line 30.
 LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.6pt on input line 31.
+(Font)              scaled to size 10.95pt on input line 31.
 LaTeX Font Info:    Trying to load font information for TS1+XCharter-TLF on input line 33.
  (C:\Users\Amit\AppData\Local\Programs\MiKTeX\tex/latex/xcharter\ts1xcharter-tlf.fd
 File: TS1XCharter-TLF.fd 2020/05/25 (msharpe) Font definitions for TS1/XCharter-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
-(Font)              scaled to size 10.6pt on input line 33.
+(Font)              scaled to size 10.95pt on input line 33.
 LaTeX Font Info:    Font shape `TS1/XCharter-TLF/b/n' will be
-(Font)              scaled to size 10.6pt on input line 42.
-LaTeX Font Info:    Calculating math sizes for size <10.6> on input line 43.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.41997> not available
-(Font)              size <7> substituted on input line 43.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.41997> not available
-(Font)              size <7> substituted on input line 43.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.41997> not available
-(Font)              size <7> substituted on input line 43.
-
+(Font)              scaled to size 10.95pt on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.6> on input line 43.
+(Font)              <10.95> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.41997> on input line 43.
+(Font)              <8> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.3> on input line 43.
-[1
+(Font)              <6> on input line 43.
+ [1
 
 {C:/Users/Amit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/xcharter/xch_rydp4l.enc}{C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/xcharter/xch1_co4ru4.enc}{C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/xcharter/xch1_z3wvjz.enc}] (AmitChandran_MainResume.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.41997pt have occurred.
-
 Package rerunfilecheck Info: File `AmitChandran_MainResume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12407 strings out of 467510
- 199842 string characters out of 5409281
- 667658 words of memory out of 5000000
- 41498 multiletter control sequences out of 15000+600000
- 670204 words of font info for 60 fonts, out of 8000000 for 9000
+ 12415 strings out of 467510
+ 199998 string characters out of 5409281
+ 664920 words of memory out of 5000000
+ 41497 multiletter control sequences out of 15000+600000
+ 672027 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,5n,107p,468b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on AmitChandran_MainResume.pdf (1 page, 178488 bytes).
+<C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcharter/XCharter-Bold.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/xcharter/XCharter-Roman.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Amit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on AmitChandran_MainResume.pdf (1 page, 187119 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 60 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
